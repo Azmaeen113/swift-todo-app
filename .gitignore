@@ -1,0 +1,61 @@
+# .gitignore — TodoApp SwiftUI / Firebase
+
+# ── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# ── Xcode ───────────────────────────────────────────────────────────────────
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcscmblueprint
+.build/
+build/
+
+# ── Swift Package Manager ────────────────────────────────────────────────────
+.build/
+.swiftpm/
+Packages/
+Package.resolved        # optional — commit if you want reproducible builds
+
+# ── Firebase — NEVER commit these files ─────────────────────────────────────
+# The GoogleService-Info.plist contains your Firebase project credentials.
+# Download it from the Firebase Console and add it manually to Xcode.
+GoogleService-Info.plist
+
+# ── CocoaPods (not used here, but just in case) ──────────────────────────────
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# ── Carthage ─────────────────────────────────────────────────────────────────
+Carthage/Build/
+
+# ── Fastlane ─────────────────────────────────────────────────────────────────
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ── Xcode Cloud ─────────────────────────────────────────────────────────────
+ci_scripts/
+
+# ── Coverage ─────────────────────────────────────────────────────────────────
+*.gcno
+*.gcda
+*.profraw
