@@ -21,6 +21,7 @@
 		B00012 /* HomeView.swift in Sources */              = {isa = PBXBuildFile; fileRef = A00012; };
 		B00013 /* TodoRowView.swift in Sources */           = {isa = PBXBuildFile; fileRef = A00013; };
 		B00014 /* TodoFormView.swift in Sources */          = {isa = PBXBuildFile; fileRef = A00014; };
+		B00015 /* GoogleService-Info.plist in Resources */  = {isa = PBXBuildFile; fileRef = A00015; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		A00012 /* HomeView.swift */              = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A00013 /* TodoRowView.swift */           = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRowView.swift; sourceTree = "<group>"; };
 		A00014 /* TodoFormView.swift */          = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFormView.swift; sourceTree = "<group>"; };
+		A00015 /* GoogleService-Info.plist */    = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		PROD01 /* TodoApp.app */                 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 			children = (
 				A00001 /* TodoAppApp.swift */,
 				A00002 /* ContentView.swift */,
+				A00015 /* GoogleService-Info.plist */,
 				MODGRP  /* Models */,
 				SVCGRP  /* Services */,
 				VMGRP   /* ViewModels */,
@@ -200,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00015 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.TodoApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.swiftapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -375,7 +379,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.TodoApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.swiftapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
